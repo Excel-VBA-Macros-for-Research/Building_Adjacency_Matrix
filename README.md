@@ -32,6 +32,6 @@ The "XLSM file" contains three macro buttons. Open an Excel file of data about g
 ## Source_Code_Version1.bas
 The "Source_Code_Version1" is a BAS file containing the source code of the Excel VBA. You can import this file in Excel.  
 
-### About
-- Author: Mitsuyuki Numasawa
-- Affiliation: Institute of Education, Tokyo Medical and Dental University (TMDU), Tokyo, Japan.
+## About  
+- Author: Mitsuyuki Numasawa  
+- Affiliation: Institute of Education, Tokyo Medical and Dental University (TMDU), Tokyo, Japan.  
