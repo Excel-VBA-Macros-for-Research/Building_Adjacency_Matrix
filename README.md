@@ -3,14 +3,12 @@ Adjacency matrix is .... The excel VBA for building adjacency matrix on this sit
 
 ## Material_Sample.xlsx  
 The "Material_Sample" file represents a data layout which can be used for building adjacency matrix with the VBA.
-### ID  
-- The initial character of each ID must not be zero.  
+- The notation for ID and groups can be either numbers or letters.  
+- The initial character of ID and the name of groups must not be zero.  
 - There must be no duplicate in the "ID" column.  
-### Group_Type1  
+- The notations for the same group must match exactly. Lowercase and uppercase letters are distinguished.
+- If a person belongs to no group, the cell must be blank. No symbols, letters, or numbers indicating independence must be entered in the cell.
 - The "Group_Type1" column represents a pattern in which each person belongs to a single group.  
-- The notation for groups can be either numbers or letters.  
-- The notation 
-
 
 ## XLSM_file_Version1.xlsm  
 The "XLSM file" 
