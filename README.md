@@ -18,3 +18,7 @@ The "XLSM file" contains three macro buttons. Open an excel file of data about g
 - Click the "Conversion_from_Individuals_to_Groups" button. Then, a dialog box appears.
 - Choose the excel file of data about grouping.
 - Click a cell in the column of intended category and click the OK button. Any cell in the intended column will do.
+- On Mac, another dialog box will appear. Then, click the "OK" button.
+- An excel file displaying who belongs to which group is automatically created. It is recommended that you save this file. The file should not be closed yet.
+### Building_Adjacency_Matrix_from_Groups
+- Click the "Building_Adjacency_Matrix_from_Group" button. Then, a dialog box appears.
