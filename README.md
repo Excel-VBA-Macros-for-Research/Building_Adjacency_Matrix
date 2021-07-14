@@ -10,16 +10,21 @@ The "Material_Sample" file represents a data layout which can be used for buildi
 - If a person belongs to no group, the cell must be blank. In such a case, no symbols, letters, or numbers must be entered in the cell.  
 - The "Group_Type1" column represents a pattern in which each person belongs to a single group.  
 - The "Group_Type2" column represents a pattern in which some persons belong to a group and the others do not belong to the group.  
-- The "Group_Type3" column represents a pattern in which some persons belong to multiple groups. Each notation for multiple groups must be connected by semicolons in cells. Spaces must not be placed before or after semicolons.  
+- The "Group_Type3" column represents a pattern in which some persons belong to multiple groups. Each notation for multiple groups must be connected by semicolons in cells. Spaces must not be placed before or after semicolons.
 
 ## XLSM_file_Version1.xlsm  
 The "XLSM file" contains three macro buttons. Open an excel file of data about grouping like "Material_Sample" file before executing the macros.
-### Conversion_from_Individuals_to_Groups
+### Conversion_from_Individuals_to_Groups  
 - Click the "Conversion_from_Individuals_to_Groups" button. Then, a dialog box appears.  
 - Select the excel file of data about grouping.  
 - Click a cell in the column of intended category and click the OK button. Any cell in the intended column will do.  
 - On Mac, another dialog box will appear. Then, click the "OK" button.  
-- An excel file displaying the members of each group is created. As for persons who belong to no groups, the groups whose names are IDs of the persons are placed for the sake of convenience. It is recommended that you save this file. The file should not be closed yet.  
-### Building_Adjacency_Matrix_from_Groups
+- An excel file displaying the members of each group is created in seconds. As for persons who belong to no groups, the groups whose names are IDs of the persons are placed for the sake of convenience. It is recommended that you save this file. The file should not be closed yet.  
+### Building_Adjacency_Matrix_from_Groups  
 - Click the "Building_Adjacency_Matrix_from_Group" button. Then, a dialog box appears.
-- Select the excel file which have been just created by "Conversion_from_Individuals_to_Groups" macro. If an excel files whose layout is similar to such a file displaying the members of each group, you can skip the previous step of "Conversion_from_Individuals_to_Groups" and start with this step.
+- Select the excel file which have been just created by "Conversion_from_Individuals_to_Groups" macro. If you already have an excel file whose layout is similar to such a file displaying the members of each group, you can skip the previous step of "Conversion_from_Individuals_to_Groups" and start with this step.
+- On Mac, another dialog box will appear. Then, click the "OK" button.  
+- An excel file showing adjacency matrix with "0" and "1" is created. It might take a few tens of seconds to a minute.  
+### Recover from errors  
+- Some errors might occur in executing macros when the layout of material data files are not suited, for example.  
+- If you encounter errors and executing macros are aborted, click the "Recover from errors" button in the "XLSM_file" before anything else calmly. Then, close all the files whitout safing them.  Until the "Recover from errors" button is clicked, the display of any excel files may be wrong.  
