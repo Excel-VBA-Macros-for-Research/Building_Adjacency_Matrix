@@ -50,7 +50,7 @@ With ExportSheet2
     .UsedRange.NumberFormatLocal = "0_ "
     .UsedRange.Value = Arr()
 End With
-ImportSheet.Columns(SelectColumn).Copy ExportSheet3.Cells(1, 1) '�ړI�̃f�[�^�̗��eSheet2��1��ڂփR�s�y
+ImportSheet.Columns(SelectColumn).Copy ExportSheet3.Cells(1, 1) '目的のデータの列をeSheet2の1列目へコピペ
 
 MultipleData = False
 With ExportSheet3
@@ -152,8 +152,8 @@ With ExportSheet2
             TempLastColumn = ExportSheet1.Cells(1, ExportSheet1.Columns.Count).End(xlToLeft).Column
             ExportSheet1.Cells(1, TempLastColumn + 1) = TempCell.Value
             ExportSheet1.Cells(2, TempLastColumn + 1) = TempCell.Value
-        Next TempCell '���̃Z����
-    End If '�������̐l�����邩��If���̏I��
+        Next TempCell '次のセルへ
+    End If '無所属の人がいるかのIf文の終了
 End With
 
 Complete:
