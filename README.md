@@ -16,10 +16,10 @@ The "Material_Sample" file represents a data layout which can be used for buildi
 The "XLSM file" contains three macro buttons. Open an excel file of data about grouping like "Material_Sample" file before executing the macros.
 ### Conversion_from_Individuals_to_Groups
 - Click the "Conversion_from_Individuals_to_Groups" button. Then, a dialog box appears.  
-- Choose the excel file of data about grouping.  
+- Select the excel file of data about grouping.  
 - Click a cell in the column of intended category and click the OK button. Any cell in the intended column will do.  
 - On Mac, another dialog box will appear. Then, click the "OK" button.  
 - An excel file displaying the members of each group is created. As for persons who belong to no groups, the groups whose names are IDs of the persons are placed for the sake of convenience. It is recommended that you save this file. The file should not be closed yet.  
 ### Building_Adjacency_Matrix_from_Groups
 - Click the "Building_Adjacency_Matrix_from_Group" button. Then, a dialog box appears.
-- Choose the excel file of data about grouping.
+- Select the excel file which have been just created by "Conversion_from_Individuals_to_Groups" macro. If an excel files whose layout is similar to such a file displaying the members of each group, you can skip the previous step of "Conversion_from_Individuals_to_Groups" and start with this step.
