@@ -1,7 +1,8 @@
 # Excel VBA for building adjacency matrix
-Adjacency matrix is .... The Excel VBA for building adjacency matrix on this site can make adjacency matrix almost automatically from Excel files of data about grouping. Although the VBA are optimized for Windows, it can also be used in Mac.
+Adjacency matrix is ....   
+The Excel VBA for building adjacency matrix on this site can make adjacency matrix almost automatically from Excel files of data about grouping. Although the VBA are optimized for Windows, it can also be used in Mac.  
 
-## Material_Sample.xlsx  
+## "Material_Sample" file
 The "Material_Sample" file represents a data layout which can be used for building adjacency matrix with the VBA.
 - The notation for ID and groups can be either numbers or letters.  
 - The initial character of ID and the name of groups must not be zero.  
@@ -12,8 +13,8 @@ The "Material_Sample" file represents a data layout which can be used for buildi
 - The "Group_Type2" column represents a pattern in which some persons belong to a group and the others do not belong to the group.  
 - The "Group_Type3" column represents a pattern in which some persons belong to multiple groups. Each notation for multiple groups must be connected by semicolons in cells. Spaces must not be placed before or after semicolons.
 
-## XLSM_file_Version1.xlsm  
-The "XLSM file" contains three macro buttons. Open an Excel file of data about grouping like "Material_Sample" file before executing the macros.
+## "Macros" file
+The "Macros" file contains three macro buttons. Open an Excel file of data about grouping like "Material_Sample" file before executing the macros.
 ### Conversion_from_Individuals_to_Groups  
 - Click the "Conversion_from_Individuals_to_Groups" button. Then, a dialog box appears.  
 - Select the Excel file of data about grouping.  
@@ -27,9 +28,9 @@ The "XLSM file" contains three macro buttons. Open an Excel file of data about g
 - An Excel file showing adjacency matrix with "0" and "1" is created. It might take a few tens of seconds to a minute.  
 ### Recover from errors  
 - Some errors might occur in executing macros when the layout of the material data file is not suited, for example.  
-- If you encounter errors and executing macros are aborted, click the "Recover from errors" button in the "XLSM_file" before anything else calmly. Then, close all the files without saving them. Until the "Recover from errors" button is clicked, the display of any Excel files may be wrong.  
+- If you encounter errors and executing macros are aborted, click the "Recover from errors" button in the "Macros" file before anything else calmly. Then, close all the files without saving them. Until the "Recover from errors" button is clicked, the display of any Excel files may be wrong.  
 
-## Source_Code_Version1.bas
+## "Source_Code" file
 The "Source_Code_Version1" is a BAS file containing the source code of the Excel VBA. You can import this file in Excel.  
 
 ## About  
