@@ -1,9 +1,9 @@
-# Excel VBA for building adjacency matrix
+# Excel VBA macros for building adjacency matrix
 Adjacency matrix is ....   
-The Excel VBA for building adjacency matrix on this site can make adjacency matrix almost automatically from Excel files of data about grouping. Although the VBA are optimized for Windows, it can also be used on Mac.  
+The Excel VBA macros for building adjacency matrix on this site can make adjacency matrix almost automatically from Excel files of data about grouping. Although the VBA macros are optimized for Windows, it can also be used on Mac.  
 
 ## "Material_Sample" file
-The "Material_Sample" file represents a data layout which can be used for building adjacency matrix with the VBA.
+The "Material_Sample" file represents a data layout which can be used for building adjacency matrix with the VBA macros.
 - The notation for ID and groups can be either numbers or letters.  
 - The initial character of ID and the name of groups must not be zero.  
 - There must be no duplicate in the "ID" column.  
@@ -31,7 +31,7 @@ The "Macros" file contains three macro buttons. Open an Excel file of data about
 - If you encounter errors and executing macros are aborted, click the "Recover from errors" button in the "Macros" file before anything else calmly. Then, close all the files without saving them. Until the "Recover from errors" button is clicked, the display of any Excel files may be wrong.  
 
 ## "Source_Code" file
-The "Source_Code_Version1" is a BAS file containing the source code of the Excel VBA. You can import this file in Excel.  
+The "Source_Code_Version1" is a BAS file containing the source code of the Excel VBA macros. You can import this file in Excel.  
 
 ## About  
 - Author: Mitsuyuki Numasawa  
