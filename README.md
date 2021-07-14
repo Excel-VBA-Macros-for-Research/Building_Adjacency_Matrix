@@ -30,4 +30,8 @@ The "XLSM file" contains three macro buttons. Open an Excel file of data about g
 - If you encounter errors and executing macros are aborted, click the "Recover from errors" button in the "XLSM_file" before anything else calmly. Then, close all the files whitout safing them.  Until the "Recover from errors" button is clicked, the display of any Excel files may be wrong.  
 
 ## Source_Code_Version1.bas
-The "Source_Code_Version1" is a BAS file containing the source code of the Excel VBA. You can import this file in Excel.
+The "Source_Code_Version1" is a BAS file containing the source code of the Excel VBA. You can import this file in Excel.  
+
+### About
+- Author: Mitsuyuki Numasawa
+- Affiliation: Institute of Education, Tokyo Medical and Dental University (TMDU), Tokyo, Japan.
