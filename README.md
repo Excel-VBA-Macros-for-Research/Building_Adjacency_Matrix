@@ -14,7 +14,7 @@ The "Material_Sample" file represents a data layout which can be used for buildi
 - The "Group_Type3" column represents a pattern in which some persons belong to multiple groups. Each notation for multiple groups must be connected by semicolons in cells. Spaces must not be placed before or after semicolons.
 
 ## "Macros" file
-The "Macros" file contains three macro buttons. Open an Excel file of data about grouping like "Material_Sample" file before executing the macros.
+The "Macros" file contains three macro buttons. Open an Excel file of data about grouping like the "Material_Sample" file before executing the macros.
 ### Conversion_from_Individuals_to_Groups  
 - Click the "Conversion_from_Individuals_to_Groups" button. Then, a dialog box appears.  
 - Select the Excel file of data about grouping.  
