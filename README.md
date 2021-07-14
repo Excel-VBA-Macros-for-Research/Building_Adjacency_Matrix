@@ -17,7 +17,7 @@ The "Material_Sample" file represents a data layout which can be used for buildi
 The "Macros" file contains three macro buttons. Open an Excel file of data about grouping like the "Material_Sample" file before executing the macros.
 ### Conversion_from_Individuals_to_Groups  
 - Click the "Conversion_from_Individuals_to_Groups" button. Then, a dialog box appears.  
-- Select the Excel file of data about grouping.  
+- Select the Excel file of data about grouping like the "Material_Sample" file.  
 - Click a cell in the column of intended category and click the OK button. Any cell in the intended column will do.  
 - On Mac, another dialog box will appear. Then, click the "OK" button.  
 - An Excel file displaying the members of each group is created in seconds. As for persons who belong to no groups, the groups whose names are IDs of the persons are placed for the sake of convenience. It is recommended that you save this file. The file should not be closed yet.  
