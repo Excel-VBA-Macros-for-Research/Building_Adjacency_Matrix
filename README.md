@@ -1,5 +1,5 @@
 # Excel VBA macros for building adjacency matrix
-Adjacency matrix is ....   
+The Adjacency matrix is ....   
 The Excel VBA macros for building adjacency matrix on this site can make adjacency matrix almost automatically from Excel files of data about grouping. Although the VBA macros are optimized for Windows, it can also be used on Mac.  
 
 ## "Material_Sample" file
