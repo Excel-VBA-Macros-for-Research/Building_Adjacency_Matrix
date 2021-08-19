@@ -1,6 +1,6 @@
 # Excel VBA macros for building adjacency matrix
-The Adjacency matrix is ....   
-The Excel VBA macros for building adjacency matrix on this site can make adjacency matrix almost automatically from Excel files of data about grouping. Although the VBA macros are optimized for Windows, it can also be used on Mac.  
+The Adjacency matrix is a matrix in which if there is a connection between x and y, axy and ayx will be 1, otherwise axy=0, and diagonal will be 0.
+The Excel VBA macros for building adjacency matrix on this site can make adjacency matrix almost automatically from Excel files of data about grouping. Although the VBA macros are optimized for Windows, it can also be used on Mac.
 
 ## "Material_Sample" file
 The "Material_Sample" file represents a data layout which can be used for building adjacency matrix with the VBA macros.
