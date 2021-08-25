@@ -22,7 +22,7 @@ The "Macros" file contains three macro buttons. Open an Excel file of data about
 - An Excel file displaying the members of each group is created in seconds. As for persons who belong to no groups, the groups whose names are IDs of the persons are placed for the sake of convenience. It is recommended that you save this file. The file should not be closed yet.  
 ### Building_Adjacency_Matrix_from_Groups  
 - Click the "Building_Adjacency_Matrix_from_Group" button. Then, a dialog box appears.
-- Select the Excel file which have been just created by "Conversion_from_Individuals_to_Groups" macro. If you already have an Excel file whose layout is similar to such a file displaying the members of each group, you can skip the previous step of "Conversion_from_Individuals_to_Groups" and start with this step.
+- Select the Excel file which have been just created by the "Conversion_from_Individuals_to_Groups" macro. If you already have an Excel file whose layout is similar to such a file displaying the members of each group, you can skip the previous step of "Conversion_from_Individuals_to_Groups" and start with this step.
 - On Mac, another dialog box will appear. Then, click the "OK" button.  
 - An Excel file showing adjacency matrix with "0" and "1" is created. It might take a few tens of seconds to a minute.  
 ### Recover from errors  
