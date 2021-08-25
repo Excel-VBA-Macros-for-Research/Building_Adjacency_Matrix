@@ -9,7 +9,7 @@ The "Material_Sample" file represents a data layout which can be used for buildi
 - The notations for the same group must match exactly. Lowercase and uppercase letters are distinguished.  
 - If a person belongs to no group, the cell must be blank. In such a case, no symbols, letters, or numbers must be entered in the cell.  
 - The "Group_Type1" column represents a pattern in which each person belongs to a single group.  
-- The "Group_Type2" column represents a pattern in which some persons belong to a group and the others do not belong to the group.  
+- The "Group_Type2" column represents a pattern in which some persons belong to a group and the others do not belong to any group.  
 - The "Group_Type3" column represents a pattern in which some persons belong to multiple groups. Each notation for multiple groups must be connected by semicolons in cells. Spaces must not be placed before or after semicolons.
 
 ## "Macros" file
